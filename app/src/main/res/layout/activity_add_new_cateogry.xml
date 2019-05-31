@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddNewCateogry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category Name"
+            android:inputType="text"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_light"
+            android:textSize="20sp"
+            app:met_baseColor="@android:color/holo_red_light"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/holo_red_dark"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtItemID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item ID"
+            android:inputType="text"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_light"
+            android:textSize="20sp"
+            app:met_baseColor="@android:color/holo_red_light"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/holo_red_dark"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Name"
+            android:inputType="text"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_light"
+            android:textSize="20sp"
+            app:met_baseColor="@android:color/holo_red_light"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/holo_red_dark"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtItemHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Hint"
+            android:inputType="text"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_light"
+            android:textSize="20sp"
+            app:met_baseColor="@android:color/holo_red_light"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/holo_red_dark"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Price"
+            android:inputType="text"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/holo_red_light"
+            android:textSize="20sp"
+            app:met_baseColor="@android:color/holo_red_light"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/holo_red_dark"
+            app:met_singleLineEllipsis="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSelect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:text="@string/select"
+            android:textColor="@android:color/white"
+            app:cornerRadius="5dp"
+            app:fButtonColor="@color/colorAccent1"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnUpload"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/upload"
+            android:textColor="@android:color/white"
+            app:cornerRadius="5dp"
+            app:fButtonColor="@color/colorPrimary1"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnAddToDatabase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:text="@string/add_to_database"
+            android:textColor="@android:color/white"
+            app:cornerRadius="5dp"
+            app:fButtonColor="@color/colorAccent1"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnCancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            app:cornerRadius="5dp"
+            app:fButtonColor="@color/colorPrimary1"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

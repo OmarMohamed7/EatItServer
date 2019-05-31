@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EatIt-Server</string>
+    <string name="slogan">We transfer products as quickly as we can ^ ^ </string>
+    <string name="SignInTxt">Sign In</string>
+    <string name="title_activity_home">""</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="total">TOTAL :  </string>
+    <string name="_1_000">$1000</string>
+    <string name="id">ID :</string>
+    <string name="username">Username :</string>
+    <string name="status">Status :</string>
+    <string name="phone">Phone :</string>
+    <string name="address">Address :</string>
+    <string name="price">Price :</string>
+    <string name="menu">Menu</string>
+    <string name="cart">Cart</string>
+    <string name="orders">Orders</string>
+    <string name="logout">Logout</string>
+    <string name="select">SELECT</string>
+    <string name="upload">UPLOAD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="add_to_database">Add to Database</string>
+    <string name="title_activity_tracking_order">Map</string>
+
+</resources>
